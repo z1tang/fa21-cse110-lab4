@@ -32,5 +32,5 @@
 
 15. === the strict equality check doesn't allow type conversion, so if x and y are different types, x === y immediately return false. == can do type conversion, so '2' == 2 will evaluate to true. == cannot differentiate 0 from false; === can.
     
-17. 
+17. 11
 
