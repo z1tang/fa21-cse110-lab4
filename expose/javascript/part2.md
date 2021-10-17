@@ -34,5 +34,15 @@
     
 16. answer in part2-question16.js
     
-17. 
+17. The result of newArr should be [2, 4, 6], since the callback function doSomething(num) is called in every iteration of the for loop, and in each iteration, 
+array[i] will be passing in as a parameter to the doSomething() function. First iteration, array[i] = 1, and pass the number 1 to the callback function, since it returns "num * 2", so 1 * 2 = 2. Then the number 2 will be push into newArr. Then it passes 2 to the callback function, and 2 becomes 4, and push it to newArr. Then the number 3, and 3 becomes 6 and push 6 into newArr. So, after the for loop, newArr will have [2, 4, 6] in it.
+
+18. answer in part2-question18.js
+    
+19. 1
+    4
+    3
+    2
+
+
 
