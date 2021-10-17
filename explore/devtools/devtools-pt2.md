@@ -1,2 +1,0 @@
-1. the bug is that the program would calculate the result as a concatenation of num1 and num2, for example if num = 2, and number 2 = 3, the Sum would be "23".
-2. I use parseInt to convert the string representation of a number to a number, so "let num1 = parseInt(document.getElementById("num1").value);"
